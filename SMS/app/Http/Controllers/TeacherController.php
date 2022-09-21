@@ -19,7 +19,7 @@ class TeacherController extends Controller
         $this->teacher->name = $request->name;
         $this->teacher->phone = $request->phone;
         $this->teacher->email = $request->email;
-        $this->teacher->password = bcrypt('12345');
+        $this->teacher->password = bcrypt('12345678');
         $this->teacher->image = $this->saveImage($request);
         $this->teacher->address = $request->address;
         $this->teacher->save();
@@ -49,12 +49,13 @@ class TeacherController extends Controller
     public function teacherLogin(){
         return view('admin.teacher.login');
     }
-    public function teacherLoginCheck(Request $request){
-        $loginInfo = Teacher::where('email', $request->user_name)
-            ->orWhere('phone', $request->user_name)
+    public function teacherLoginCheck(Request $request)
+    {
+        $loginInfo = Teacher::where('email', $request->user_name)->orWhere('phone', $request->user_name)
             ->first();
         if($loginInfo){
-            if(hash::check('password', bcrypt('password'))){
+            $exPassword = $loginInfo->password;
+            if(password_verify($request->password, $exPassword)){
                 Session::put('teacherId',$loginInfo->id);
                 Session::put('teacherName',$loginInfo->name);
                 return redirect('/');
@@ -66,7 +67,17 @@ class TeacherController extends Controller
         else{
             return back()->with('message', 'use valid email or phone');
         }
-//        return $request;
     }
+
+    public function teacherLogout(){
+        Session::forget('teacherId');
+        Session::forget( 'teacherName');
+        return redirect('/');
+    }
+    public function teacherProfile(){
+        return view('admin.teacher.profile');
+    }
+
+
 
 }

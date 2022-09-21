@@ -13,18 +13,24 @@
                     <li><a class="nav-link active" href="{{ route('/') }}">Home</a></li>
                     <li><a class="nav-link" href="{{ route('about') }}">About</a></li>
                     <li><a class="nav-link" href="{{ route('course') }}">Courses</a></li>
-                    <li><a class="nav-link" href="{{ route('contact') }}">Contact us</a></li>
+                    <li><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
                     <li><a class="nav-link" href="{{ route('student-login') }}">Login</a></li>
                     <li><a class="nav-link" href="{{ route('student-register') }}">Register</a></li>
+
+                    @if(Session::get('teacherId'))
+                    <li><a class="nav-link" href="{{ route('teacher-profile') }}">{{ Session::get('teacherName') }}</a></li>
+                    <li><a class="nav-link" href="{{ route('teacher-logout') }}">Logout</a></li>
+                    @else
                     <li><a class="nav-link" href="{{ route('teacher-login') }}">Teacher Login</a></li>
+                    @endif
                 </ul>
             </div>
-            <div class="search-box">
-                <input type="text" class="search-txt" placeholder="Search">
-                <a class="search-btn">
-                    <img src="{{asset('frontEndAsset')}}/images/search_icon.png" alt="#" />
-                </a>
-            </div>
+{{--            <div class="search-box">--}}
+{{--                <input type="text" class="search-txt" placeholder="Search">--}}
+{{--                <a class="search-btn">--}}
+{{--                    <img src="{{asset('frontEndAsset')}}/images/search_icon.png" alt="#" />--}}
+{{--                </a>--}}
+{{--            </div>--}}
         </div>
     </nav>
 </header>

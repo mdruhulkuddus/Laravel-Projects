@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SMSController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\TeacherController;
+use App\Http\Controllers\CourseController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,6 +29,14 @@ Route::get('/student-login', [SMSController::class, 'studentLogin'])->name('stud
 Route::get('/student-register', [SMSController::class, 'studentRegister'])->name('student-register');
 Route::get('/teacher-login', [TeacherController::class, 'teacherLogin'])->name('teacher-login');
 Route::post('/teacher-login', [TeacherController::class, 'teacherLoginCheck'])->name('teacher-login');
+
+
+Route::group(['middleware' => 'teacher'], function(){
+    Route::get('/teacher-logout', [TeacherController::class, 'teacherLogout'])->name('teacher-logout');
+    Route::get('/teacher-profile', [TeacherController::class, 'teacherProfile'])->name('teacher-profile');
+    Route::get('/add-course', [CourseController::class, 'addCourse'])->name('add-course');
+    Route::get('/manage-course', [CourseController::class, 'manageCourse'])->name('manage-course');
+});
 
 Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified'])->group(function () {
 //    Route::get('/dashboard', function () {

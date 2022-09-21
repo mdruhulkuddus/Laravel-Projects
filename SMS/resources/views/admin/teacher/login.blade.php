@@ -37,6 +37,7 @@
                             <div class="card-body p-4 p-sm-5">
 {{--                                <button class="btn btn-outline-success">Sign In</button>--}}
                                 <h5 class="card-title">Sign In as a Teacher</h5> <hr>
+                                <h6 class="card-title">{{session('message')}}</h6>
                                 <form class="form-body" method="post" action="{{ route('teacher-login') }}">
                                     @csrf
                                     <div class="row g-3">

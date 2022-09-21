@@ -4,13 +4,16 @@
             <div class="nav-toggle-icon"><i class="bi bi-list"></i></div>
         </div>
         <ul class="nav nav-pills flex-column">
+            @if(Session::get('teacherId'))
+
+            @else
             <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboards">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#dashboards" type="button"><i class="bi bi-house-door-fill"></i></button>
             </li>
-            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Application">
-                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-application" type="button"><i class="bi bi-grid-fill"></i></button>
-            </li>
-
+            @endif
+                <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Course">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#course" type="button"><i class="bi bi-grid-fill"></i></button>
+                </li>
         </ul>
     </div>
     <div class="textmenu">
@@ -31,19 +34,17 @@
                     <a href="{{ route('manage-teacher') }}" class="list-group-item"><i class="bi bi-cart-plus"></i>Manage Teasher</a>
                 </div>
             </div>
-            <div class="tab-pane fade" id="pills-application">
+            <div class="tab-pane fade" id="course">
                 <div class="list-group list-group-flush">
                     <div class="list-group-item">
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-0">Application</h5>
+                            <h5 class="mb-0">Course</h5>
                         </div>
                         <small class="mb-0">Some placeholder content</small>
                     </div>
-                    <a href="app-emailbox.html" class="list-group-item"><i class="bi bi-envelope"></i>Email</a>
-                    <a href="app-chat-box.html" class="list-group-item"><i class="bi bi-chat-left-text"></i>Chat Box</a>
-                    <a href="app-file-manager.html" class="list-group-item"><i class="bi bi-archive"></i>File Manager</a>
-                    <a href="app-to-do.html" class="list-group-item"><i class="bi bi-check2-square"></i>Todo List</a>
-                    <a href="app-invoice.html" class="list-group-item"><i class="bi bi-receipt"></i>Invoice</a>
+                    <a href="{{ route('add-course') }}" class="list-group-item"><i class="bi bi-check2-square"></i>Add Course</a>
+                    <a href="{{ route('manage-course') }}l" class="list-group-item"><i class="bi bi-receipt"></i>Manage Course</a>
+
                 </div>
             </div>
 
