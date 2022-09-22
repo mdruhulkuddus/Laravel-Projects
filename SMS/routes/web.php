@@ -36,6 +36,7 @@ Route::group(['middleware' => 'teacher'], function(){
     Route::get('/teacher-profile', [TeacherController::class, 'teacherProfile'])->name('teacher-profile');
     Route::get('/add-course', [CourseController::class, 'addCourse'])->name('add-course');
     Route::get('/manage-course', [CourseController::class, 'manageCourse'])->name('manage-course');
+    Route::post('/new-course', [CourseController::class, 'saveCourse'])->name('new-course');
 });
 
 Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified'])->group(function () {
