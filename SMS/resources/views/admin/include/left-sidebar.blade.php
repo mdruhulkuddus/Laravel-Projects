@@ -5,15 +5,15 @@
         </div>
         <ul class="nav nav-pills flex-column">
             @if(Session::get('teacherId'))
-
+                <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Course">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#course" type="button"><i class="bi bi-grid-fill"></i></button>
+                </li>
             @else
             <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboards">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#dashboards" type="button"><i class="bi bi-house-door-fill"></i></button>
             </li>
             @endif
-                <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Course">
-                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#course" type="button"><i class="bi bi-grid-fill"></i></button>
-                </li>
+
         </ul>
     </div>
     <div class="textmenu">

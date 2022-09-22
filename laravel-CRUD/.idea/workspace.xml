@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21605614-efc0-4b03-8b87-3f8548d9f4c0" name="Changes" comment="" />
+    <list default="true" id="21605614-efc0-4b03-8b87-3f8548d9f4c0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../SMS/app/Http/Controllers/TeacherController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../SMS/app/Http/Controllers/TeacherController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMS/public/adminAsset/teacher-image/1039274342.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMS/public/adminAsset/teacher-image/1839167150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMS/public/adminAsset/teacher-image/2070622885.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMS/public/adminAsset/teacher-image/232534884.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMS/public/adminAsset/teacher-image/390548503.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMS/resources/views/admin/include/left-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../SMS/resources/views/admin/include/left-sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMS/resources/views/admin/teacher/manage-teacher.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../SMS/resources/views/admin/teacher/manage-teacher.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMS/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../SMS/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +21,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -126,20 +140,21 @@
     </include_path>
   </component>
   <component name="ProjectId" id="2EyGKrxh2hEflj3pgZ1PLkYqKkm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/SWE Training/xampp-BITM/htdocs/Laravel/laravel-CRUD/public/frontEndAsset&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/SWE Training/xampp-BITM/htdocs/Laravel/SMS",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\SWE Training\xampp-BITM\htdocs\Laravel\laravel-CRUD\public\frontEndAsset" />
@@ -162,10 +177,25 @@
       <workItem from="1663560354491" duration="7281000" />
       <workItem from="1663644062909" duration="9279000" />
       <workItem from="1663683330299" duration="7112000" />
+      <workItem from="1663769668249" duration="623000" />
+      <workItem from="1663771631083" duration="942000" />
+      <workItem from="1663774837638" duration="2470000" />
+      <workItem from="1663819442109" duration="2667000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

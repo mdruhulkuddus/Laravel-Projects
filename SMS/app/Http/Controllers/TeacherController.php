@@ -40,12 +40,32 @@ class TeacherController extends Controller
     }
     public function deleteTeacher(Request $request){
         $this->teacher = Teacher::find($request->teacher_id);
-        if($this->teacher->image){
+        if(is_file($this->teacher->image)){
             unlink($this->teacher->image);
         }
         $this->teacher->delete();
         return back()->with('message', 'Teacher Information Deleted Successfully!');
     }
+    public function editTeacher($id){
+        return view('admin.teacher.edit-teacher',[
+           'teacherInfo' => Teacher::find($id),
+        ]);
+    }
+    public function updateTeacher(Request $request){
+//        return $request->id;
+        $this->teacher = Teacher::find($request->teacher_id);
+        $this->teacher->name= $request->name;
+        $this->teacher->phone = $request->phone;
+        $this->teacher->email = $request->email;
+        $this->teacher->address = $request->address;
+        if($request->file('image')){
+            if(is_file($this->teacher->image)){unlink($this->teacher->image);}
+            $this->teacher->image = $this->saveImage($request);
+        }
+        $this->teacher->save();
+        return redirect('/manage-teacher')->with('message', 'Teacher Information Update Successfully!');
+    }
+
     public function teacherLogin(){
         return view('admin.teacher.login');
     }
@@ -61,11 +81,11 @@ class TeacherController extends Controller
                 return redirect('/');
             }
             else{
-                return back()->with('message', 'use valid password');
+                return back()->with('message', 'Use Valid Password');
             }
         }
         else{
-            return back()->with('message', 'use valid email or phone');
+            return back()->with('message', 'Use Valid Email or Phone');
         }
     }
 
