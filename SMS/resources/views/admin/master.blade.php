@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en" class="minimal-theme">
 
@@ -88,10 +89,12 @@
 <script src="{{asset('adminAsset')}}/assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
 <script src="{{asset('adminAsset')}}/assets/plugins/datatable/js/dataTables.bootstrap5.min.js"></script>
 <script src="{{asset('adminAsset')}}/assets/js/table-datatable.js"></script>
+<script src="{{asset('adminAsset')}}/assets/js/validation.js"></script>
 <script>
     new PerfectScrollbar(".best-product")
     new PerfectScrollbar(".top-sellers-list")
 </script>
+
 
 
 </body>

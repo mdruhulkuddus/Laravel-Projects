@@ -16,7 +16,8 @@ class CourseController extends Controller
 
     public function saveCourse(Request $request){
         $this->validate($request,[
-            'course_name' => 'required|unique:courses,course_name|string|min:10|max:50'
+            'course_name' => 'required|unique:courses,course_name|string|min:10|max:50',
+            'image' => 'file|filled'
         ]);
         $course = new Course();
         $course->teacher_id = $request->teacher_id;

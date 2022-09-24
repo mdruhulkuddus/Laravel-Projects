@@ -35,7 +35,8 @@
                                 <label for="inputName" class="col-sm-3 col-form-label">Course Name</label>
                                 <div class="col-sm-9">
                                     <input type="hidden" name="teacher_id" value="{{ Session::get('teacherId') }}">
-                                    <input type="text" name="course_name" class="form-control" id="inputName" placeholder="Course Name">
+                                    <input type="text" name="course_name" class="form-control" id="courseName" placeholder="Course Name">
+                                    <span id="courseNameError" style="color: red;"></span>
                                 </div>
                             </div>
                             <div class="row mb-3">
@@ -69,10 +70,11 @@
                                     <input type="file" name="image" class="form-control" id="inputChooseFile">
                                 </div>
                             </div>
+
                             <div class="row">
                                 <label class="col-sm-3 col-form-label"></label>
                                 <div class="col-sm-9">
-                                    <button type="submit" name="register" class="btn btn-primary px-5">Submit Info</button>
+                                    <button type="submit" name="register" id="courseAddForm" class="btn btn-primary px-5">Submit Info</button>
                                 </div>
                             </div>
 
@@ -82,4 +84,9 @@
             </div>
         </div>
     </div>
+
+
 @endsection
+
+
+
