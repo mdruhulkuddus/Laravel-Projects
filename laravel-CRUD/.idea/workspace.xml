@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21605614-efc0-4b03-8b87-3f8548d9f4c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../SMS/app/Http/Controllers/TeacherController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../SMS/app/Http/Controllers/TeacherController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SMS/public/adminAsset/teacher-image/1039274342.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SMS/public/adminAsset/teacher-image/1839167150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SMS/public/adminAsset/teacher-image/2070622885.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SMS/public/adminAsset/teacher-image/232534884.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SMS/public/adminAsset/teacher-image/390548503.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SMS/resources/views/admin/include/left-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../SMS/resources/views/admin/include/left-sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SMS/resources/views/admin/teacher/manage-teacher.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../SMS/resources/views/admin/teacher/manage-teacher.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SMS/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../SMS/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="21605614-efc0-4b03-8b87-3f8548d9f4c0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +169,7 @@
       <workItem from="1663769668249" duration="623000" />
       <workItem from="1663771631083" duration="942000" />
       <workItem from="1663774837638" duration="2470000" />
-      <workItem from="1663819442109" duration="2667000" />
+      <workItem from="1663819442109" duration="2669000" />
     </task>
     <servers />
   </component>
