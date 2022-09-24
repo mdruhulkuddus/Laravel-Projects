@@ -19,11 +19,6 @@ class SMSController extends Controller
     public function contact(){
         return view('frontEnd.contact.contact');
     }
-    public function studentLogin(){
-        return view('frontEnd.contact.contact');
-    }
-    public function studentRegister(){
-        return view('frontEnd.contact.contact');
-    }
+
 
 }

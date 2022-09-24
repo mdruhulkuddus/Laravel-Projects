@@ -5,6 +5,7 @@ use App\Http\Controllers\SMSController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\TeacherController;
 use App\Http\Controllers\CourseController;
+use App\Http\Controllers\StudentController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,8 +26,16 @@ Route::get('/about', [SMSController::class, 'about'])->name('about'); // name fo
 
 Route::get('/course', [SMSController::class, 'course'])->name('course');
 Route::get('/contact', [SMSController::class, 'contact'])->name('contact');
-Route::get('/student-login', [SMSController::class, 'studentLogin'])->name('student-login');
-Route::get('/student-register', [SMSController::class, 'studentRegister'])->name('student-register');
+
+// frontend student routes
+Route::get('/student-login', [StudentController::class, 'studentLogin'])->name('student-login');
+Route::get('/student-register', [StudentController::class, 'studentRegister'])->name('student-register');
+Route::post('/save-student', [StudentController::class, 'saveStudent'])->name('save-student');
+Route::post('/student-login-check', [StudentController::class, 'studentLoginCheck'])->name('student-login-check');
+Route::get('/student-logout', [StudentController::class, 'studentLogout'])->name('student-logout');
+
+
+//admin teacher routes
 Route::get('/teacher-login', [TeacherController::class, 'teacherLogin'])->name('teacher-login');
 Route::post('/teacher-login', [TeacherController::class, 'teacherLoginCheck'])->name('teacher-login');
 
