@@ -91,6 +91,8 @@
 <script src="{{asset('adminAsset')}}/assets/js/table-datatable.js"></script>
 <script src="{{asset('adminAsset')}}/assets/js/validation.js"></script>
 <script>
+   // console.write('ruhul');
+
     new PerfectScrollbar(".best-product")
     new PerfectScrollbar(".top-sellers-list")
 </script>

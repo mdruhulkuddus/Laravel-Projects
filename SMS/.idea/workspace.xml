@@ -4,21 +4,14 @@
     <list default="true" id="4044a878-26bb-4023-af47-4ba22036a95d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SMSController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SMSController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/packages.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/packages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontEnd/include/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontEnd/include/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontEnd/course/course.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontEnd/course/course.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontEnd/include/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontEnd/include/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +193,9 @@
       <workItem from="1663773196433" duration="3346000" />
       <workItem from="1663819725039" duration="4375000" />
       <workItem from="1663992067683" duration="6553000" />
-      <workItem from="1664005986614" duration="9079000" />
+      <workItem from="1664005986614" duration="9730000" />
+      <workItem from="1664272856727" duration="1109000" />
+      <workItem from="1664610615353" duration="10368000" />
     </task>
     <servers />
   </component>
@@ -220,9 +215,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="431" key="NewPhpFileDialog" timestamp="1664012595656">
+    <state x="401" y="267" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1664615839123">
       <screen x="62" y="0" width="1218" height="1024" />
     </state>
-    <state x="505" y="431" key="NewPhpFileDialog/62.0.1218.1024@62.0.1218.1024" timestamp="1664012595656" />
+    <state x="401" y="267" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/62.0.1218.1024@62.0.1218.1024" timestamp="1664615839123" />
+    <state x="451" y="267" key="FileChooserDialogImpl" timestamp="1664275839355">
+      <screen x="62" y="0" width="1218" height="1024" />
+    </state>
+    <state x="451" y="267" key="FileChooserDialogImpl/62.0.1218.1024@62.0.1218.1024" timestamp="1664275839355" />
+    <state x="505" y="431" key="NewPhpFileDialog" timestamp="1664615412461">
+      <screen x="62" y="0" width="1218" height="1024" />
+    </state>
+    <state x="505" y="431" key="NewPhpFileDialog/62.0.1218.1024@62.0.1218.1024" timestamp="1664615412461" />
   </component>
 </project>

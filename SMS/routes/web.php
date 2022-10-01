@@ -25,6 +25,8 @@ Route::get('/', [SMSController::class, 'index'])->name('/');
 Route::get('/about', [SMSController::class, 'about'])->name('about'); // name for uses route in assets pages
 
 Route::get('/course', [SMSController::class, 'course'])->name('course');
+Route::get('/course-details/{slug}', [SMSController::class, 'courseDetails'])->name('course-details');
+
 Route::get('/contact', [SMSController::class, 'contact'])->name('contact');
 
 // frontend student routes
@@ -33,6 +35,7 @@ Route::get('/student-register', [StudentController::class, 'studentRegister'])->
 Route::post('/save-student', [StudentController::class, 'saveStudent'])->name('save-student');
 Route::post('/student-login-check', [StudentController::class, 'studentLoginCheck'])->name('student-login-check');
 Route::get('/student-logout', [StudentController::class, 'studentLogout'])->name('student-logout');
+Route::post('/admission', [StudentController::class, 'admission'])->name('admission');
 
 
 //admin teacher routes

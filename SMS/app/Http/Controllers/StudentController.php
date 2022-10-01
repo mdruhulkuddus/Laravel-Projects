@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Models\Admission;
 use App\Models\Student;
 use Illuminate\Http\Request;
 //use MongoDB\Driver\Session;
@@ -65,5 +66,12 @@ class StudentController extends Controller
         Session::forget('studentId');
         Session::forget('studentName');
         return redirect('/');
+    }
+
+    public function admission(Request $request)
+    {
+        $admission = new Admission();
+        
+        return $request;
     }
 }
