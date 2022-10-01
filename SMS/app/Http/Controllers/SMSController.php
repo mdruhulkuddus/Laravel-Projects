@@ -2,12 +2,18 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Course;
 use Illuminate\Http\Request;
+use DB;
 
 class SMSController extends Controller
 {
     public function index(){
-        return view('frontEnd.home.home');
+//        $course =  Course::orderBy('id', 'desc')->take(3)->get();
+//        return $course;
+        return view('frontEnd.home.home', [
+           'courses' => Course::orderBy('id', 'desc')->take(3)->get()
+        ]);
     }
 
     public function about(){
@@ -19,11 +25,21 @@ class SMSController extends Controller
     public function contact(){
         return view('frontEnd.contact.contact');
     }
-    public function studentLogin(){
-        return view('frontEnd.contact.contact');
+
+    public function courseDetails($slug){
+        $courseDetails = DB::table('courses')
+            ->join('teachers', 'courses.teacher_id', 'teachers.id')
+//            ->select('courses.*', 'teachers.*')
+            ->select('courses.*', 'teachers.name', 'teachers.email', 'teachers.phone')
+            ->where('slug', $slug)
+            ->first();
+//        return $courseDetails;
+        return view('frontEnd.course.course-details', [
+            'course' => $courseDetails
+        ]);
+
+
     }
-    public function studentRegister(){
-        return view('frontEnd.contact.contact');
-    }
+
 
 }

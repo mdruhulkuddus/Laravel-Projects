@@ -14,8 +14,13 @@
                     <li><a class="nav-link" href="<?php echo e(route('about')); ?>">About</a></li>
                     <li><a class="nav-link" href="<?php echo e(route('course')); ?>">Courses</a></li>
                     <li><a class="nav-link" href="<?php echo e(route('contact')); ?>">Contact</a></li>
-                    <li><a class="nav-link" href="<?php echo e(route('student-login')); ?>">Login</a></li>
-                    <li><a class="nav-link" href="<?php echo e(route('student-register')); ?>">Register</a></li>
+                    <?php if(Session::get('studentId')): ?>
+                        <li><a class="nav-link" href="<?php echo e(route('student-login')); ?>"><?php echo e(Session::get('studentName')); ?></a></li>
+                        <li><a class="nav-link" href="<?php echo e(route('student-logout')); ?>">Logout</a></li>
+                    <?php else: ?>
+                        <li><a class="nav-link" href="<?php echo e(route('student-login')); ?>">Login</a></li>
+                        <li><a class="nav-link" href="<?php echo e(route('student-register')); ?>">Register</a></li>
+                    <?php endif; ?>
 
                     <?php if(Session::get('teacherId')): ?>
                     <li><a class="nav-link" href="<?php echo e(route('teacher-profile')); ?>"><?php echo e(Session::get('teacherName')); ?></a></li>

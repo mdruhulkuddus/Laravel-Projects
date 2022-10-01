@@ -1,4 +1,4 @@
-@extends('frontEnd.master');
+@extends('frontEnd.master')
 
 @section('title')
     Course
