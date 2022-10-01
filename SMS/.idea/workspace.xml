@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4044a878-26bb-4023-af47-4ba22036a95d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CourseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/course/add-course.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/course/add-course.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-CRUD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-CRUD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +188,8 @@
       <workItem from="1663773196433" duration="3346000" />
       <workItem from="1663819725039" duration="4375000" />
       <workItem from="1663992067683" duration="6553000" />
+      <workItem from="1664201605573" duration="627000" />
+      <workItem from="1664634727290" duration="1512000" />
     </task>
     <servers />
   </component>
