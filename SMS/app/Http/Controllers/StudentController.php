@@ -62,6 +62,7 @@ class StudentController extends Controller
 
     }
 
+
     public function studentLogout(){
         Session::forget('studentId');
         Session::forget('studentName');
@@ -70,6 +71,9 @@ class StudentController extends Controller
 
     public function admission(Request $request)
     {
+        $this->validate($request,[
+            'confirmation' => 'required',
+        ]);
         $admission = new Admission();
         $admission->student_id = $request->student_id;
         $admission->course_id = $request->course_id;

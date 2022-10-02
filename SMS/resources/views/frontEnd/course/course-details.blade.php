@@ -16,6 +16,17 @@
                 </div>
                 <div class="col-md-6 layout_padding_2">
                     <div class="full">
+                        @if($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+                    </div>
+                    <div class="full">
                         <div class="heading_main text_align_left">
                             <h2><span>Course Details</span></h2>
                         </div>

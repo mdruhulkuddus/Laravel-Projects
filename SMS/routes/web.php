@@ -38,7 +38,6 @@ Route::post('/student-login-check', [StudentController::class, 'studentLoginChec
 Route::get('/student-logout', [StudentController::class, 'studentLogout'])->name('student-logout');
 Route::post('/admission', [StudentController::class, 'admission'])->name('admission');
 
-
 //admin teacher routes
 Route::get('/teacher-login', [TeacherController::class, 'teacherLogin'])->name('teacher-login');
 Route::post('/teacher-login', [TeacherController::class, 'teacherLoginCheck'])->name('teacher-login');
@@ -53,6 +52,7 @@ Route::group(['middleware' => 'teacher'], function(){
     Route::post('/delete-course', [CourseController::class, 'deleteCourse'])->name('delete-course');
     Route::get('/edit-course/{id}', [CourseController::class, 'editCourse'])->name('edit-course');
     Route::post('/update-course', [CourseController::class, 'updateCourse'])->name('update-course');
+    Route::get('/manage-applicant', [CourseController::class, 'manageApplicant'])->name('manage-applicant');
 });
 
 Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified'])->group(function () {

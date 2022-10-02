@@ -44,6 +44,7 @@
                     </div>
                     <a href="{{ route('add-course') }}" class="list-group-item"><i class="bi bi-check2-square"></i>Add Course</a>
                     <a href="{{ route('manage-course') }}" class="list-group-item"><i class="bi bi-receipt"></i>Manage Course</a>
+                    <a href="{{ route('manage-applicant') }}" class="list-group-item"><i class="bi bi-receipt"></i>Manage Applicant</a>
 
                 </div>
             </div>

@@ -87,6 +87,20 @@ class CourseController extends Controller
         }
         $this->course->save();
         return redirect('/manage-course')->with('message', 'Course Information Update Successfully!');
+    }
 
+    public function manageApplicant(){
+       $applicants = DB::table('admissions')
+            ->join('students', 'admissions.student_id', '=', 'students.id')
+            ->join('courses', 'admissions.course_id', '=', 'courses.id')
+            ->select('students.student_name', 'students.student_email', 'students.student_phone',
+                'courses.course_name', 'courses.course_code', 'courses.course_fee', 'admissions.confirmation',
+                'admissions.id'
+            )
+            ->get();
+
+        return view('admin.teacher.manage-applicant', [
+            'applicants' => $applicants
+        ]);
     }
 }
