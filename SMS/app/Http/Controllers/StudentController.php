@@ -71,7 +71,10 @@ class StudentController extends Controller
     public function admission(Request $request)
     {
         $admission = new Admission();
-        
-        return $request;
+        $admission->student_id = $request->student_id;
+        $admission->course_id = $request->course_id;
+        $admission->confirmation = $request->confirmation;
+        $admission->save();
+        return back();
     }
 }

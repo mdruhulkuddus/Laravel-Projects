@@ -357,7 +357,7 @@ button:focus {
 .top-header .navbar .navbar-collapse ul li a {
 	text-transform: uppercase;
 	font-size: 15px;
-	padding: 7px 20px;
+	padding: 19px 19px;
 	position: relative;
 	font-weight: 400;
 	overflow: hidden;

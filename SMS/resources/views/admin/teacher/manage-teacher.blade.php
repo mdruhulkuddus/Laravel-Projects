@@ -31,9 +31,7 @@
                             </td>
                             <td>{{ $teacher->address }}</td>
                             <td>
-{{--                                <a href="" ><i class='fas fa-edit' style='font-size:48px;color:red'></i></a>--}}
                                 <a href="{{ route('teacher-edit', ['id' => $teacher->id]) }}" class="btn btn-primary float-end">Edit</a>
-{{--                                <a href="" class="btn btn-danger" onclick="event.preventDefault(); return confirm('Are you sure to delete this!'); document.getElementById('delete').submit(); ">Delete</a>--}}
                                 <a href="" class="float-end">
                                 <form action="{{ route('teacher-delete') }}" method="post" id="delete">
                                     @csrf

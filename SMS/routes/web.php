@@ -23,11 +23,12 @@ use App\Http\Controllers\StudentController;
 
 Route::get('/', [SMSController::class, 'index'])->name('/');
 Route::get('/about', [SMSController::class, 'about'])->name('about'); // name for uses route in assets pages
+Route::get('/contact', [SMSController::class, 'contact'])->name('contact');
 
 Route::get('/course', [SMSController::class, 'course'])->name('course');
 Route::get('/course-details/{slug}', [SMSController::class, 'courseDetails'])->name('course-details');
 
-Route::get('/contact', [SMSController::class, 'contact'])->name('contact');
+
 
 // frontend student routes
 Route::get('/student-login', [StudentController::class, 'studentLogin'])->name('student-login');
@@ -49,6 +50,9 @@ Route::group(['middleware' => 'teacher'], function(){
     Route::get('/add-course', [CourseController::class, 'addCourse'])->name('add-course');
     Route::get('/manage-course', [CourseController::class, 'manageCourse'])->name('manage-course');
     Route::post('/new-course', [CourseController::class, 'saveCourse'])->name('new-course');
+    Route::post('/delete-course', [CourseController::class, 'deleteCourse'])->name('delete-course');
+    Route::get('/edit-course/{id}', [CourseController::class, 'editCourse'])->name('edit-course');
+    Route::post('/update-course', [CourseController::class, 'updateCourse'])->name('update-course');
 });
 
 Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified'])->group(function () {
@@ -57,6 +61,7 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified']
 //    })->name('dashboard');
 
     Route::get('/dashboard',[AdminController::class, 'index'])->name('dashboard');
+    Route::get('/admin',[AdminController::class, 'index'])->name('dashboard');
     Route::get('/add-teacher',[TeacherController::class, 'index'])->name('add-teacher');
     Route::get('/manage-teacher',[TeacherController::class, 'manageTeacher'])->name('manage-teacher');
     Route::post('/new-teacher',[TeacherController::class, 'saveTeacher'])->name('new-teacher');
