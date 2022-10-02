@@ -102,24 +102,16 @@
                     </div>
                 </div>
             </div>
+            <?php $__currentLoopData = $courses; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $course): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
             <div class="col-md-4">
                 <div class="full blog_img_popular">
-                    <img class="img-responsive" src="<?php echo e(asset('frontEndAsset')); ?>/images/p1.png" alt="#" />
-                    <h4>Financial Accounting</h4>
+                    <img class="img-responsive" src="<?php echo e($course->image); ?>" alt="#" style="width: 100%; height: 300px"/>
+                    <a href="<?php echo e(route('course-details', ['slug' => $course->slug ])); ?>">
+                        <h4><?php echo e(substr($course->course_name, 0, 10)); ?></h4>
+                    </a>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="full blog_img_popular">
-                    <img class="img-responsive" src="<?php echo e(asset('frontEndAsset')); ?>/images/p2.png" alt="#" />
-                    <h4>Managerial Accounting</h4>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="full blog_img_popular">
-                    <img class="img-responsive" src="<?php echo e(asset('frontEndAsset')); ?>/images/p3.png" alt="#" />
-                    <h4>Intermediate Accounting</h4>
-                </div>
-            </div>
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
         </div>
     </div>
 </div>

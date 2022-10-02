@@ -41,11 +41,11 @@ class StudentController extends Controller
         return $this->imageUrl;
     }
     public function studentLoginCheck(Request $request){
-       $studentInfo = Student::where('student_email', $request->user_name)
-        ->orWhere('student_phone', $request->user_name)
-        ->first();
+        $studentInfo = Student::where('student_email', $request->user_name)
+            ->orWhere('student_phone', $request->user_name)
+            ->first();
 
-       if($studentInfo){
+        if($studentInfo){
             $existing_password = $studentInfo->password;
             if(password_verify($request->user_password, $existing_password)){
                 Session::put('studentId', $studentInfo->id);
@@ -55,10 +55,10 @@ class StudentController extends Controller
             else{
                 return back()->with('message', 'Please valid Password');
             }
-       }
-       else{
-           return back()->with('message', 'Please valid Email or Phone');
-       }
+        }
+        else{
+            return back()->with('message', 'Please valid Email or Phone');
+        }
 
     }
 
@@ -71,7 +71,10 @@ class StudentController extends Controller
     public function admission(Request $request)
     {
         $admission = new Admission();
-
-        return $request;
+        $admission->student_id = $request->student_id;
+        $admission->course_id = $request->course_id;
+        $admission->confirmation = $request->confirmation;
+        $admission->save();
+        return back();
     }
 }

@@ -9,7 +9,7 @@ use function Symfony\Component\HttpFoundation\replace;
 
 class CourseController extends Controller
 {
-    public $image, $imageName, $directory, $imgUrl;
+    public $course, $image, $imageName, $directory, $imgUrl;
     public function addCourse(){
         return view('admin.course.add-course');
     }
@@ -26,7 +26,8 @@ class CourseController extends Controller
         $course->slug = $this->makeSlug($request);
         $course->course_description = $request->course_description;
         $course->course_fee = $request->course_fee;
-        $course->image = $this->saveImage($request);
+//        $this->image = $request->file('image');
+        $course->image= $this->saveImage($request);
         $course->save();
         return back()->with('message', 'Course Information Save Successfully!');
     }
@@ -54,5 +55,38 @@ class CourseController extends Controller
         return view('admin.course.manage-course',[
             'courses' => $courses
         ]);
+    }
+
+    public function deleteCourse(Request $request){
+        $this->course = Course::find($request->course_id);
+        if(is_file($this->course->image)) unlink($this->course->image);
+        $this->course->delete();
+        return back()->with('message', 'Deleted one course information');
+    }
+
+    public function editCourse($id){
+//        return Course::find($id);
+        return view('admin.course.edit-course',[
+           'courseInfo' => Course::find($id)
+        ]);
+    }
+
+    public function updateCourse(Request $request){
+//    return $request->course_id;
+
+        $this->course = Course::find($request->course_id);
+        $this->course->teacher_id = $request->teacher_id;
+        $this->course->course_name = $request->course_name;
+        $this->course->course_code = $request->course_code;
+        $this->course->slug = $this->makeSlug($request);
+        $this->course->course_description = $request->course_description;
+        $this->course->course_fee = $request->course_fee;
+        if($request->file('image')){
+            if(is_file($this->course->image)){unlink($this->course->image);}
+            $this->course->image = $this->saveImage($request);
+        }
+        $this->course->save();
+        return redirect('/manage-course')->with('message', 'Course Information Update Successfully!');
+
     }
 }

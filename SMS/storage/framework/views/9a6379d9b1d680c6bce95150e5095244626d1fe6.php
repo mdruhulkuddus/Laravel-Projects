@@ -1,4 +1,3 @@
-
 <?php $__env->startSection('title'); ?>
     Manage Teacher Form
 <?php $__env->stopSection(); ?>
@@ -35,19 +34,25 @@
 
                             <td>
                                 <div class="table-actions d-flex align-items-center gap-3 fs-6">
-                                    <a href="javascript:;" class="text-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Views"><i class="bi bi-eye-fill"></i></a>
-                                    <a href="javascript:;" class="text-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Edit"><i class="bi bi-pencil-fill"></i></a>
-                                    <a href="javascript:;" class="text-danger" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Delete"><i class="bi bi-trash-fill"></i></a>
+                                    <a href="" class="text-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Views">
+                                        <button type="submit" style="border: none; color: #3461FF"><i class="bi bi-eye-fill"></i></button>
+                                    </a>
+                                    <a href="<?php echo e(route('edit-course', ['id' => $course->id])); ?>" class="text-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Edit">
+                                        <button type="submit" style="border: none; color: #FFCB32">
+                                        <i class="bi bi-pencil-fill"></i>
+                                        </button>
+                                    </a>
+
+                                    <a href="" class="text-danger" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Delete">
+                                        <form action="<?php echo e(route('delete-course')); ?>" method="post">
+                                            <?php echo csrf_field(); ?>
+                                            <input type="hidden" name="course_id" value="<?php echo e($course->id); ?>">
+                                            <button type="submit" style="border: none; color: #E72E2E">
+                                                <i class="bi bi-trash-fill"></i>
+                                            </button>
+                                        </form>
+                                    </a>
                                 </div>
-                                
-
-                                
-
-
-
-
-
-
 
                             </td>
                         </tr>
