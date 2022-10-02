@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4044a878-26bb-4023-af47-4ba22036a95d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SMSController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SMSController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontEnd/course/course.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontEnd/course/course.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontEnd/include/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontEnd/include/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-    </list>
+    <list default="true" id="4044a878-26bb-4023-af47-4ba22036a95d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,7 +149,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../bootstrap-5.0.2-dist" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -195,7 +184,7 @@
       <workItem from="1663992067683" duration="6553000" />
       <workItem from="1664005986614" duration="9730000" />
       <workItem from="1664272856727" duration="1109000" />
-      <workItem from="1664610615353" duration="10368000" />
+      <workItem from="1664610615353" duration="10596000" />
     </task>
     <servers />
   </component>
@@ -219,10 +208,10 @@
       <screen x="62" y="0" width="1218" height="1024" />
     </state>
     <state x="401" y="267" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/62.0.1218.1024@62.0.1218.1024" timestamp="1664615839123" />
-    <state x="451" y="267" key="FileChooserDialogImpl" timestamp="1664275839355">
+    <state x="451" y="267" key="FileChooserDialogImpl" timestamp="1664622951082">
       <screen x="62" y="0" width="1218" height="1024" />
     </state>
-    <state x="451" y="267" key="FileChooserDialogImpl/62.0.1218.1024@62.0.1218.1024" timestamp="1664275839355" />
+    <state x="451" y="267" key="FileChooserDialogImpl/62.0.1218.1024@62.0.1218.1024" timestamp="1664622951082" />
     <state x="505" y="431" key="NewPhpFileDialog" timestamp="1664615412461">
       <screen x="62" y="0" width="1218" height="1024" />
     </state>

@@ -71,7 +71,7 @@ class StudentController extends Controller
     public function admission(Request $request)
     {
         $admission = new Admission();
-        
+
         return $request;
     }
 }
