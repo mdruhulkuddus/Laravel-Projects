@@ -2,6 +2,10 @@
 @section('title')
     Manage Applicant
 @endsection
+@section('profile-name')
+    {{ Session::get('teacherName') }}
+    {{ Session::get('teacherId') }}
+@endsection
 
 @section('content')
     <div class="card">
@@ -11,19 +15,23 @@
                     <thead>
                     <tr>
                         <th>SL no</th>
-                        <th>Name</th>
-                        <th>Phone No</th>
-                        <th>Email</th>
-                        <th>Image</th>
-                        <th>Address</th>
-                        <th>Action</th>
+                        <th>Teacher ID</th>
+                        <th>S. Name</th>
+                        <th>S. Email</th>
+                        <th>S. Phone No</th>
+                        <th>Course</th>
+                        <th>Code</th>
+                        <th>Fee</th>
+                        <th>Confirmation</th>
                     </tr>
                     </thead>
                     <tbody>
                     @php $i = 1; @endphp
                     @foreach($applicants as $applicant)
+                        @if($applicant->teacher_id == Session::get('teacherId'))
                         <tr>
                             <td>{{ $i++ }}</td>
+                            <td>{{ $applicant->teacher_id }}</td>
                             <td>{{ $applicant->student_name }}</td>
                             <td>{{ $applicant->student_email }}</td>
                             <td>{{ $applicant->student_phone }}</td>
@@ -43,6 +51,7 @@
 {{--                                </a>--}}
 {{--                            </td>--}}
                         </tr>
+                    @endif
                     @endforeach
                 </table>
             </div>

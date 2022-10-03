@@ -23,8 +23,8 @@
                     @endif
 
                     @if(Session::get('teacherId'))
-                    <li><a class="nav-link" href="{{ route('teacher-profile') }}">{{ Session::get('teacherName') }}</a></li>
-                    <li><a class="nav-link" href="{{ route('teacher-logout') }}">Logout</a></li>
+                    <li><a class="nav-link" href="{{ route('teacher-profile') }}">T-{{ Session::get('teacherName') }}</a></li>
+                    <li><a class="nav-link" href="{{ route('teacher-logout') }}">T-Logout</a></li>
                     @else
                     <li><a class="nav-link" href="{{ route('teacher-login') }}">Teacher-Login</a></li>
                     @endif

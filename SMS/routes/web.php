@@ -44,6 +44,7 @@ Route::post('/teacher-login', [TeacherController::class, 'teacherLoginCheck'])->
 
 
 Route::group(['middleware' => 'teacher'], function(){
+    Route::get('/logout', [TeacherController::class, 'teacherLogout'])->name('logout');
     Route::get('/teacher-logout', [TeacherController::class, 'teacherLogout'])->name('teacher-logout');
     Route::get('/teacher-profile', [TeacherController::class, 'teacherProfile'])->name('teacher-profile');
     Route::get('/add-course', [CourseController::class, 'addCourse'])->name('add-course');
@@ -53,6 +54,7 @@ Route::group(['middleware' => 'teacher'], function(){
     Route::get('/edit-course/{id}', [CourseController::class, 'editCourse'])->name('edit-course');
     Route::post('/update-course', [CourseController::class, 'updateCourse'])->name('update-course');
     Route::get('/manage-applicant', [CourseController::class, 'manageApplicant'])->name('manage-applicant');
+    Route::get('/applicant-overview', [CourseController::class, 'applicantOverview'])->name('applicant-overview');
 });
 
 Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified'])->group(function () {

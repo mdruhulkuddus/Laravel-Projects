@@ -78,7 +78,7 @@ class TeacherController extends Controller
             if(password_verify($request->password, $exPassword)){
                 Session::put('teacherId',$loginInfo->id);
                 Session::put('teacherName',$loginInfo->name);
-                return redirect('/');
+                return redirect('teacher-profile');
             }
             else{
                 return back()->with('message', 'Use Valid Password');

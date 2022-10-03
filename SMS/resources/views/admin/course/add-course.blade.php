@@ -4,6 +4,10 @@
     Add Course
 @endsection
 
+@section('profile-name')
+    {{ Session::get('teacherName') }}
+@endsection
+
 @section('content')
     <div class="row">
         <div class="col-xl-9 mx-auto">

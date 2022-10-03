@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Course;
+use App\Models\Admission;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use function Symfony\Component\HttpFoundation\replace;
@@ -94,13 +95,25 @@ class CourseController extends Controller
             ->join('students', 'admissions.student_id', '=', 'students.id')
             ->join('courses', 'admissions.course_id', '=', 'courses.id')
             ->select('students.student_name', 'students.student_email', 'students.student_phone',
-                'courses.course_name', 'courses.course_code', 'courses.course_fee', 'admissions.confirmation',
-                'admissions.id'
+                'courses.course_name', 'courses.course_code', 'courses.course_fee', 'courses.teacher_id',
+                'admissions.confirmation', 'admissions.id'
             )
             ->get();
 
         return view('admin.teacher.manage-applicant', [
             'applicants' => $applicants
+        ]);
+    }
+
+    public function applicantOverview(){
+        $totalStudent = Admission::count();
+        $aspStudent = Admission::where('course_id', '10')->count();
+        $aspStudent = Admission::where('course_id', '10')->count();
+        $msofficeStudent = Admission::where('course_id', 9)->count();
+        return view('admin.teacher.applicant-overview',[
+            'totalStudent' => $totalStudent,
+            'aspStudent' => $aspStudent,
+            'msofficeStudent' => $msofficeStudent,
         ]);
     }
 }

@@ -23,8 +23,8 @@
                     <?php endif; ?>
 
                     <?php if(Session::get('teacherId')): ?>
-                    <li><a class="nav-link" href="<?php echo e(route('teacher-profile')); ?>"><?php echo e(Session::get('teacherName')); ?></a></li>
-                    <li><a class="nav-link" href="<?php echo e(route('teacher-logout')); ?>">Logout</a></li>
+                    <li><a class="nav-link" href="<?php echo e(route('teacher-profile')); ?>">T-<?php echo e(Session::get('teacherName')); ?></a></li>
+                    <li><a class="nav-link" href="<?php echo e(route('teacher-logout')); ?>">T-Logout</a></li>
                     <?php else: ?>
                     <li><a class="nav-link" href="<?php echo e(route('teacher-login')); ?>">Teacher-Login</a></li>
                     <?php endif; ?>
