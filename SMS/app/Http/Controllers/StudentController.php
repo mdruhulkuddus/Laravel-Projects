@@ -7,6 +7,7 @@ use App\Models\Admission;
 use App\Models\Student;
 use Illuminate\Http\Request;
 //use MongoDB\Driver\Session;
+use Illuminate\Support\Facades\DB;
 use Session;
 
 class StudentController extends Controller
@@ -62,7 +63,6 @@ class StudentController extends Controller
 
     }
 
-
     public function studentLogout(){
         Session::forget('studentId');
         Session::forget('studentName');
@@ -81,4 +81,29 @@ class StudentController extends Controller
         $admission->save();
         return back();
     }
+
+    public function studentProfile($id){
+//        return $id;
+//        ,['id' => $id,]
+//        $profile = DB::table('')
+//            ->join()
+        $profileInfo = Student::find($id);
+//        return $profileInfo;
+        return view('frontEnd.student.student-profile',[
+            'profileInfo' => $profileInfo,
+            ]);
+    }
+
+//    public function courseDetails($slug){
+//        $courseDetails = DB::table('courses')
+//            ->join('teachers', 'courses.teacher_id', 'teachers.id')
+////            ->select('courses.*', 'teachers.*')
+//            ->select('courses.*', 'teachers.name', 'teachers.email', 'teachers.phone')
+//            ->where('slug', $slug)
+//            ->first();
+////        return $courseDetails;
+//        return view('frontEnd.course.course-details', [
+//            'course' => $courseDetails
+//        ]);
+//    }
 }

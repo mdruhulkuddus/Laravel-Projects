@@ -15,7 +15,8 @@
                     <li><a class="nav-link" href="{{ route('course') }}">Courses</a></li>
                     <li><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
                     @if(Session::get('studentId'))
-                        <li><a class="nav-link" href="{{ route('student-login') }}">{{ Session::get('studentName') }}</a></li>
+{{--                        , ['student_id' => Session::get('studentId')]--}}
+                        <li><a class="nav-link" href="{{ route('student-profile', ['stuId' => Session::get('studentId')]) }}">{{ Session::get('studentName') }}</a></li>
                         <li><a class="nav-link" href="{{ route('student-logout') }}">Logout</a></li>
                     @else
                         <li><a class="nav-link" href="{{ route('student-login') }}">Login</a></li>

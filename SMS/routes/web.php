@@ -32,6 +32,7 @@ Route::get('/course-details/{slug}', [SMSController::class, 'courseDetails'])->n
 
 // frontend student routes
 Route::get('/student-login', [StudentController::class, 'studentLogin'])->name('student-login');
+Route::get('/student-profile/{stuId}', [StudentController::class, 'studentProfile'])->name('student-profile');
 Route::get('/student-register', [StudentController::class, 'studentRegister'])->name('student-register');
 Route::post('/save-student', [StudentController::class, 'saveStudent'])->name('save-student');
 Route::post('/student-login-check', [StudentController::class, 'studentLoginCheck'])->name('student-login-check');
