@@ -2,10 +2,6 @@
 @section('title')
     Manage Applicant
 @endsection
-@section('profile-name')
-    {{ Session::get('teacherName') }}
-    {{ Session::get('teacherId') }}
-@endsection
 
 @section('content')
     <div class="card">

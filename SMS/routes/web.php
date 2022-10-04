@@ -45,8 +45,7 @@ Route::post('/teacher-login', [TeacherController::class, 'teacherLoginCheck'])->
 
 
 Route::group(['middleware' => 'teacher'], function(){
-    Route::get('/logout', [TeacherController::class, 'teacherLogout'])->name('logout');
-    Route::get('/teacher-logout', [TeacherController::class, 'teacherLogout'])->name('teacher-logout');
+    Route::post('/teacher-logout', [TeacherController::class, 'teacherLogout'])->name('teacher-logout');
     Route::get('/teacher-profile', [TeacherController::class, 'teacherProfile'])->name('teacher-profile');
     Route::get('/add-course', [CourseController::class, 'addCourse'])->name('add-course');
     Route::get('/manage-course', [CourseController::class, 'manageCourse'])->name('manage-course');
@@ -64,6 +63,7 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified']
 //    })->name('dashboard');
 
     Route::get('/dashboard',[AdminController::class, 'index'])->name('dashboard');
+    Route::get('/logout', [AdminController::class, 'logout'])->name('logout');
     Route::get('/admin',[AdminController::class, 'index'])->name('dashboard');
     Route::get('/add-teacher',[TeacherController::class, 'index'])->name('add-teacher');
     Route::get('/manage-teacher',[TeacherController::class, 'manageTeacher'])->name('manage-teacher');

@@ -15,7 +15,8 @@
                     <li><a class="nav-link" href="<?php echo e(route('course')); ?>">Courses</a></li>
                     <li><a class="nav-link" href="<?php echo e(route('contact')); ?>">Contact</a></li>
                     <?php if(Session::get('studentId')): ?>
-                        <li><a class="nav-link" href="<?php echo e(route('student-login')); ?>"><?php echo e(Session::get('studentName')); ?></a></li>
+
+                        <li><a class="nav-link" href="<?php echo e(route('student-profile', ['stuId' => Session::get('studentId')])); ?>"><?php echo e(Session::get('studentName')); ?></a></li>
                         <li><a class="nav-link" href="<?php echo e(route('student-logout')); ?>">Logout</a></li>
                     <?php else: ?>
                         <li><a class="nav-link" href="<?php echo e(route('student-login')); ?>">Login</a></li>

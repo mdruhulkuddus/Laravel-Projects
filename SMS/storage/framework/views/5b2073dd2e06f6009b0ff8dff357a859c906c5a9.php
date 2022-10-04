@@ -36,7 +36,11 @@
                     <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown">
                         <div class="user-setting d-flex align-items-center gap-1">
                             <img src="<?php echo e(asset('adminAsset')); ?>/assets/images/avatars/avatar-1.png" class="user-img" alt="">
-                            <div class="user-name d-none d-sm-block"><?php echo $__env->yieldContent('profile-name'); ?></div>
+                            <?php if(Session::get('teacherName')): ?>
+                            <div class="user-name d-none d-sm-block"><?php echo e(Session::get('teacherName')); ?></div>
+                            <?php else: ?>
+                                <div class="user-name d-none d-sm-block">Admin</div>
+                            <?php endif; ?>
                         </div>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
@@ -45,7 +49,11 @@
                                 <div class="d-flex align-items-center">
                                     <img src="<?php echo e(asset('adminAsset')); ?>/assets/images/avatars/avatar-1.png" alt="" class="rounded-circle" width="60" height="60">
                                     <div class="ms-3">
-                                        <h6 class="mb-0 dropdown-user-name"><?php echo $__env->yieldContent('profile-name'); ?></h6>
+                                        <?php if(Session::get('teacherName')): ?>
+                                        <h6 class="mb-0 dropdown-user-name"><?php echo e(Session::get('teacherName')); ?></h6>
+                                        <?php else: ?>
+                                        <h6 class="mb-0 dropdown-user-name">Admin</h6>
+                                        <?php endif; ?>
                                         <small class="mb-0 dropdown-user-designation text-secondary">HR Manager</small>
                                     </div>
                                 </div>
@@ -94,8 +102,13 @@
                         </li>
                         <li><hr class="dropdown-divider"></li>
                         <li>
+
                             <a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('logoutForm').submit()">
+                                <?php if(Session::get('teacherName')): ?>
+                                <form action="<?php echo e(route('teacher-logout')); ?>" method="post" id="logoutForm">
+                                <?php else: ?>
                                 <form action="<?php echo e(route('logout')); ?>" method="post" id="logoutForm">
+                                <?php endif; ?>
                                     <?php echo csrf_field(); ?>
                                     <div class="d-flex align-items-center">
                                         <div class="setting-icon"><i class="bi bi-lock-fill"></i></div>

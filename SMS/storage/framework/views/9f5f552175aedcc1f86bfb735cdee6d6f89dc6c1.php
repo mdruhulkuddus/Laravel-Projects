@@ -2,11 +2,6 @@
     Add Course
 <?php $__env->stopSection(); ?>
 
-<?php $__env->startSection('profile-name'); ?>
-    <?php echo e(Session::get('teacherName')); ?>
-
-<?php $__env->stopSection(); ?>
-
 <?php $__env->startSection('content'); ?>
     <div class="row">
         <div class="col-xl-9 mx-auto">

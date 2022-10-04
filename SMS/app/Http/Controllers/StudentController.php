@@ -83,13 +83,17 @@ class StudentController extends Controller
     }
 
     public function studentProfile($id){
-//        return $id;
-//        ,['id' => $id,]
-//        $profile = DB::table('')
-//            ->join()
+
+        $stuEnrolCourse = DB::table('admissions')
+            ->join('courses', 'admissions.course_id', '=', 'courses.id')
+            ->select('admissions.*', 'courses.id', 'courses.course_name', 'courses.course_code',
+                'courses.course_fee', 'courses.teacher_id')
+            ->where('admissions.student_id','=', $id)
+            ->get();
         $profileInfo = Student::find($id);
-//        return $profileInfo;
+//        return $stuEnrolCourse;
         return view('frontEnd.student.student-profile',[
+            'stuEnrolCourse' => $stuEnrolCourse,
             'profileInfo' => $profileInfo,
             ]);
     }
