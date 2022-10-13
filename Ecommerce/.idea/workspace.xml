@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3537ebf8-f3e0-4eba-8dbf-b06c51b93b38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SMS/resources/views/frontEnd/home/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelCrud/example-app/public/frontEnd/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelCrud/example-app/public/frontEnd/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelCrud/example-app/resources/views/all-blog.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/css/bootstrap-extended.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/css/dark-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/css/header-colors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/css/icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/css/light-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/css/pace.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/css/semi-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ae.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/af.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ai.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/al.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/am.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ao.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/aq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/as.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/at.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/au.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/aw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ax.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/az.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ba.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/be.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/br.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/by.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/bz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ca.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/cc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/cd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/cf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/cg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ci.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/cl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/cm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/cn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/co.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/cr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/cu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/cv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/cw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/cx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/cy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/cz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/de.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/dj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/dk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/dm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/do.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/dz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ec.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/eg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/eh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/er.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/es-ct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/es.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/et.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/eu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/fi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/fj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/fk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/fm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/fo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/fr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ga.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gb-eng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gb-nir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gb-sct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gb-wls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/gy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/hk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/hm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/hn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/hr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ht.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/hu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/id.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/il.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/im.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/io.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/iq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/is.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/it.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/je.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/jm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/jo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/jp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/kg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/kh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ki.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/km.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/kn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/kp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/kr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/kw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ky.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/kz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/la.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/lb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/lc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/li.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/lk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/lr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/lt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/lu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/lv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ma.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/md.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/me.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ml.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/my.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/mz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/na.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/nc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ne.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/nf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ni.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/nl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/np.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/nr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/nu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/nz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/om.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/pa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/pe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/pf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/pg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/pk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/pl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/pm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/pn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/pr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/pt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/pw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/py.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/qa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/re.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/rs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ru.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/rw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/se.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/si.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/so.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/st.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/sz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/tc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/td.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/tf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/tg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/th.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/tj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/tk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/tl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/tm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/tn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/to.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/tr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/tt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/tw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/tz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ua.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/um.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/un.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/us.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/uy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/uz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/va.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/vc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ve.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/vg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/vi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/vn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/vu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/wf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ws.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/ye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/yt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/za.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/zm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/1x1/zw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ae.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/af.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ai.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/al.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/am.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ao.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/aq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/as.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/at.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/au.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/aw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ax.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/az.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ba.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/be.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/br.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/by.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/bz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ca.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/cc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/cd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/cf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/cg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ci.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/cl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/cm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/cn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/co.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/cr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/cu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/cv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/cw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/cx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/cy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/cz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/de.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/dj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/dk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/dm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/do.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/dz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ec.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/eg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/eh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/er.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/es-ct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/es.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/et.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/eu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/fi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/fj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/fk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/fm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/fo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/fr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ga.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gb-eng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gb-nir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gb-sct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gb-wls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/gy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/hk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/hm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/hn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/hr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ht.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/hu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/id.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/il.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/im.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/io.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/iq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/is.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/it.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/je.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/jm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/jo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/jp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/kg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/kh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ki.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/km.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/kn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/kp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/kr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/kw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ky.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/kz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/la.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/lb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/lc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/li.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/lk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/lr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/lt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/lu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/lv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ma.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/md.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/me.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ml.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/my.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/mz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/na.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/nc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ne.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/nf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ni.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/nl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/np.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/nr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/nu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/nz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/om.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/pa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/pe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/pf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/pg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/pk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/pl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/pm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/pn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/pr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/pt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/pw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/py.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/qa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/re.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/rs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ru.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/rw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/se.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/si.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/so.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/st.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/sz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/tc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/td.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/tf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/tg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/th.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/tj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/tk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/tl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/tm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/tn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/to.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/tr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/tt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/tw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/tz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ua.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/um.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/un.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/us.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/uy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/uz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/va.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/vc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ve.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/vg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/vi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/vn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/vu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/wf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ws.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/ye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/yt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/za.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/zm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/flags/4x3/zw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/fonts/LineIcons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/fonts/LineIcons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/fonts/LineIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/fonts/LineIcons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/fonts/LineIcons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/fonts/boxicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/fonts/boxicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/fonts/boxicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/fonts/boxicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/fonts/boxiconsd41d.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/avatars/avatar-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/avatars/avatar-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/avatars/avatar-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/avatars/avatar-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/avatars/avatar-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/avatars/avatar-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/avatars/avatar-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/avatars/avatar-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/avatars/avatar-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/avatars/avatar-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/avatars/avatar-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/avatars/avatar-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/avatars/avatar-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/avatars/avatar-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/bg-themes/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/bg-themes/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/bg-themes/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/bg-themes/4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/bg-themes/5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/bg-themes/6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/bg-themes/7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/bg-themes/8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/brand-logo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/error/404-error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/error/505-error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/error/auth-img-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/error/auth-img-register3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/error/forgot-password-frent-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/error/login-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/gallery/34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/icons/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/products/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/products/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/products/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/products/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/products/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/products/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/products/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/products/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/products/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/products/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/products/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/images/products/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/app-chat-box.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/app-emailbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/app-emailread.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/component-popovers-tooltips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/data-widgets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/form-date-time-pickes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/form-file-upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/form-select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/icons-feather-icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/index2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/index3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/index4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/index5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/table-datatable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/js/todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/npm/bootstrap-icons@1.5.0/font/fonts/bootstrap-icons63f3.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/npm/bootstrap-icons@1.5.0/font/fonts/bootstrap-icons63f3.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/Drag-And-Drop/dist/imageuploadify.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/Drag-And-Drop/dist/imageuploadify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/apexcharts-bundle/js/apex-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/apexcharts-bundle/js/apexcharts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/bootstrap-material-datetimepicker/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/chartjs/js/Chart.extension.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/chartjs/js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/chartjs/js/chartjs-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/datatable/css/dataTables.bootstrap5.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/datatable/js/dataTables.bootstrap5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/datatable/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/datetimepicker/css/classic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/datetimepicker/css/classic.date.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/datetimepicker/css/classic.time.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/datetimepicker/js/legacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/datetimepicker/js/picker.date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/datetimepicker/js/picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/datetimepicker/js/picker.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/easyPieChart/jquery.easypiechart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/fancy-file-uploader/fancy_fileupload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/fancy-file-uploader/fancy_microphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/fancy-file-uploader/fancy_okay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/fancy-file-uploader/fancy_remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/fancy-file-uploader/fancy_upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/fancy-file-uploader/fancy_webcam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/fancy-file-uploader/jquery.fancy-fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/fancy-file-uploader/jquery.fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/fancy-file-uploader/jquery.iframe-transport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/fancy-file-uploader/jquery.ui.widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/gmaps/map-custom-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/highcharts/css/dark-unica.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/highcharts/js/accessibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/highcharts/js/cylinder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/highcharts/js/export-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/highcharts/js/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/highcharts/js/funnel3d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/highcharts/js/highcharts-3d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/highcharts/js/highcharts-custom.script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/highcharts/js/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/highcharts/js/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/highcharts/js/solid-gauge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/highcharts/js/variable-pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/input-tags/css/tagsinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/input-tags/js/tagsinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/notifications/css/lobibox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/notifications/js/lobibox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/notifications/js/notification-custom-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/notifications/js/notifications.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/peity/jquery.peity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/perfect-scrollbar/css/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/perfect-scrollbar/js/perfect-scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/select2/css/select2-bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/select2/css/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/select2/js/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/simplebar/css/simplebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/simplebar/js/simplebar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/vectormap/jquery-jvectormap-2.0.2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/vectormap/jquery-jvectormap-2.0.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/vectormap/jquery-jvectormap-au-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/vectormap/jquery-jvectormap-in-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/vectormap/jquery-jvectormap-uk-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/vectormap/jquery-jvectormap-us-aea-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/vectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/public/adminAsset/plugins/vectormap/jvectormap.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelSMS/resources/views/admin/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-2/chess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-2/hw-table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-2/nested-table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-2/resume.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-2/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/banner.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/banner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/banner2.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/banner5.350" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/bitm-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/content1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/content2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/logo2.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/logo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/logo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/logo5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/slider.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/slider1.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/slider2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/image/slider3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-4/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-4/image/banner.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-4/image/content2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-4/image/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-4/image/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-4/image/logo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-4/image/logo5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-4/image/register.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-4/image/slider2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-4/image/slider3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-4/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-4/register.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/fortify" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/jetstream" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/league/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/jenssegers/agent" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/spatie/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/spatie/backtrace" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-ignition" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/spatie/ignition" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2FcIx8H8uTh7SYM0MykHPnbNvLp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../bootstrap-5.0.2-dist" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MRK batch-9\server-9\htdocs\Ecommerce\public\adminAsset" />
+      <recent name="E:\MRK batch-9\server-9\htdocs\Ecommerce\public\frontEndAsset\css" />
+      <recent name="E:\MRK batch-9\server-9\htdocs\Ecommerce\public\frontEndAsset" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3537ebf8-f3e0-4eba-8dbf-b06c51b93b38" name="Default Changelist" comment="" />
+      <created>1664785188025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664785188025</updated>
+      <workItem from="1664785189962" duration="8559000" />
+      <workItem from="1665042824257" duration="9456000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="267" key="FileChooserDialogImpl" timestamp="1665054793560">
+      <screen x="62" y="0" width="1218" height="1024" />
+    </state>
+    <state x="451" y="267" key="FileChooserDialogImpl/62.0.1218.1024@62.0.1218.1024" timestamp="1665054793560" />
+    <state x="505" y="431" key="NewPhpFileDialog" timestamp="1665046705061">
+      <screen x="62" y="0" width="1218" height="1024" />
+    </state>
+    <state x="505" y="431" key="NewPhpFileDialog/62.0.1218.1024@62.0.1218.1024" timestamp="1665046705061" />
+  </component>
+</project>
