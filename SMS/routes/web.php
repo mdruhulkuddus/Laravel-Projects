@@ -40,15 +40,19 @@ Route::get('/student-logout', [StudentController::class, 'studentLogout'])->name
 Route::post('/admission', [StudentController::class, 'admission'])->name('admission');
 
 //admin teacher routes
+//first route get for open login form, second route post, for login check where send data from form
 Route::get('/teacher-login', [TeacherController::class, 'teacherLogin'])->name('teacher-login');
 Route::post('/teacher-login', [TeacherController::class, 'teacherLoginCheck'])->name('teacher-login');
 
 
 Route::group(['middleware' => 'teacher'], function(){
+    // this for where written form action post
     Route::post('/teacher-logout', [TeacherController::class, 'teacherLogout'])->name('teacher-logout');
+    // this for where written route in anchor tag
+    Route::get('/teacher-logout', [TeacherController::class, 'teacherLogout'])->name('teacher-logout');
     Route::get('/teacher-profile', [TeacherController::class, 'teacherProfile'])->name('teacher-profile');
     Route::get('/add-course', [CourseController::class, 'addCourse'])->name('add-course');
-    Route::get('/manage-course', [CourseController::class, 'manageCourse'])->name('manage-course');
+    Route::get('/manage-course/{teacherID}', [CourseController::class, 'manageCourse'])->name('manage-course');
     Route::post('/new-course', [CourseController::class, 'saveCourse'])->name('new-course');
     Route::post('/delete-course', [CourseController::class, 'deleteCourse'])->name('delete-course');
     Route::get('/edit-course/{id}', [CourseController::class, 'editCourse'])->name('edit-course');

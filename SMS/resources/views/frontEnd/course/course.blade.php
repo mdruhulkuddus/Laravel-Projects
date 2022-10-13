@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="full">
+                    <div class="full mt-5">
                         <h3>Course</h3>
                     </div>
                 </div>
@@ -61,24 +61,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="full blog_img_popular">
-                        <img class="img-responsive" src="{{asset('frontEndAsset')}}/images/p1.png" alt="#" />
-                        <h4>Financial Accounting</h4>
+                @foreach($courses as $course)
+                    <div class="col-md-4">
+                        <div class="full blog_img_popular">
+                            <img class="img-responsive" src="{{ $course->image }}" alt="#" style="width: 100%; height: 300px"/>
+                            <a href="{{ route('course-details', ['slug' => $course->slug ]) }}">
+                                <h4>
+                                    @if(strlen($course->course_name) < 20)
+                                        {{ $course->course_name }}
+                                    @else
+                                        {{ substr($course->course_name, 0, 19) }}
+                                    @endif
+                                </h4>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="full blog_img_popular">
-                        <img class="img-responsive" src="{{asset('frontEndAsset')}}/images/p2.png" alt="#" />
-                        <h4>Managerial Accounting</h4>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="full blog_img_popular">
-                        <img class="img-responsive" src="{{asset('frontEndAsset')}}/images/p3.png" alt="#" />
-                        <h4>Intermediate Accounting</h4>
-                    </div>
-                </div>
+                @endforeach
+
             </div>
         </div>
     </div>

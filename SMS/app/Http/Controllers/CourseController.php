@@ -48,10 +48,12 @@ class CourseController extends Controller
         $this->image->move($this->directory, $this->imageName);
         return $this->imgUrl;
     }
-    public function manageCourse(){
+    public function manageCourse($id){
+
        $courses = DB::table('courses')
             ->join('teachers', 'courses.teacher_id', 'teachers.id')
             ->select('courses.*', 'teachers.name')
+           ->where('teachers.id', $id)
             ->get();
         return view('admin.course.manage-course',[
             'courses' => $courses
@@ -110,10 +112,12 @@ class CourseController extends Controller
         $aspStudent = Admission::where('course_id', '10')->count();
         $aspStudent = Admission::where('course_id', '10')->count();
         $msofficeStudent = Admission::where('course_id', 9)->count();
+        $cloudStudent = Admission::where('course_id', 11)->count();
         return view('admin.teacher.applicant-overview',[
             'totalStudent' => $totalStudent,
             'aspStudent' => $aspStudent,
             'msofficeStudent' => $msofficeStudent,
+            'cloudStudent' => $cloudStudent,
         ]);
     }
 }

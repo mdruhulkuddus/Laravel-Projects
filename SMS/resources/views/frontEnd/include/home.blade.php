@@ -19,7 +19,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="pogoSlider-slide" style="background-image:url({{asset('frontEndAsset')}}/images/banner_img.png);">
+                <div class="pogoSlider-slide" style="background-image:url({{asset('frontEndAsset')}}/images/slider-2.jpg);">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
@@ -107,7 +107,14 @@
                 <div class="full blog_img_popular">
                     <img class="img-responsive" src="{{ $course->image }}" alt="#" style="width: 100%; height: 300px"/>
                     <a href="{{ route('course-details', ['slug' => $course->slug ]) }}">
-                        <h4>{{ substr($course->course_name, 0, 10) }}</h4>
+                        <h4>
+{{--                            @if(strlen($course->course_name) < 20)--}}
+                            @if(str_word_count($course->course_name) <= 3)
+                                {{ $course->course_name }}
+                            @else
+                            {{ substr($course->course_name, 0, 19) }}
+                            @endif
+                        </h4>
                     </a>
                 </div>
             </div>

@@ -19,7 +19,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="pogoSlider-slide" style="background-image:url(<?php echo e(asset('frontEndAsset')); ?>/images/banner_img.png);">
+                <div class="pogoSlider-slide" style="background-image:url(<?php echo e(asset('frontEndAsset')); ?>/images/slider-2.jpg);">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
@@ -107,7 +107,16 @@
                 <div class="full blog_img_popular">
                     <img class="img-responsive" src="<?php echo e($course->image); ?>" alt="#" style="width: 100%; height: 300px"/>
                     <a href="<?php echo e(route('course-details', ['slug' => $course->slug ])); ?>">
-                        <h4><?php echo e(substr($course->course_name, 0, 10)); ?></h4>
+                        <h4>
+
+                            <?php if(str_word_count($course->course_name) <= 3): ?>
+                                <?php echo e($course->course_name); ?>
+
+                            <?php else: ?>
+                            <?php echo e(substr($course->course_name, 0, 19)); ?>
+
+                            <?php endif; ?>
+                        </h4>
                     </a>
                 </div>
             </div>

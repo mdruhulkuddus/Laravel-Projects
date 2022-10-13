@@ -1,3 +1,10 @@
+@php
+    $id = Session::get('teacherId');
+        use App\Models\Teacher;
+        $teacherInfo = Teacher::find($id);
+//       echo $teacherInfo -> image;
+@endphp
+
 <header class="top-header">
     <nav class="navbar navbar-expand">
         <div class="mobile-toggle-icon d-xl-none">
@@ -35,10 +42,11 @@
                 <li class="nav-item dropdown dropdown-large">
                     <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown">
                         <div class="user-setting d-flex align-items-center gap-1">
-                            <img src="{{asset('adminAsset')}}/assets/images/avatars/avatar-1.png" class="user-img" alt="">
                             @if(Session::get('teacherName'))
-                            <div class="user-name d-none d-sm-block">{{ Session::get('teacherName') }}</div>
+                            <img src="{{asset($teacherInfo -> image)}}" class="user-img" alt="">
+                            <div class="user-name d-none d-sm-block text-uppercase">{{ Session::get('teacherName') }}</div>
                             @else
+                                <img src="{{asset('adminAsset')}}/assets/images/avatars/avatar-1.png" class="user-img" alt="">
                                 <div class="user-name d-none d-sm-block">Admin</div>
                             @endif
                         </div>
@@ -47,14 +55,21 @@
                         <li>
                             <a class="dropdown-item" href="#">
                                 <div class="d-flex align-items-center">
+                                    @if(Session::get('teacherName'))
+                                    <img src="{{asset($teacherInfo -> image)}}" alt="" class="rounded-circle" width="60" height="60">
+                                    @else
                                     <img src="{{asset('adminAsset')}}/assets/images/avatars/avatar-1.png" alt="" class="rounded-circle" width="60" height="60">
-                                    <div class="ms-3">
+                                    @endif
+
+                                        <div class="ms-3">
                                         @if(Session::get('teacherName'))
-                                        <h6 class="mb-0 dropdown-user-name">{{ Session::get('teacherName') }}</h6>
+                                        <h6 class="mb-0 dropdown-user-name text-capitalize">{{ Session::get('teacherName') }}</h6>
+                                            <small class="mb-0 dropdown-user-designation text-secondary">Teacher</small>
                                         @else
                                         <h6 class="mb-0 dropdown-user-name">Admin</h6>
-                                        @endif
                                         <small class="mb-0 dropdown-user-designation text-secondary">HR Manager</small>
+                                        @endif
+
                                     </div>
                                 </div>
                             </a>

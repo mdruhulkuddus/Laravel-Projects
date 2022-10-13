@@ -20,7 +20,9 @@ class SMSController extends Controller
         return view('frontEnd.about.about');
     }
     public function course(){
-        return view('frontEnd.course.course');
+        return view('frontEnd.course.course', [
+            'courses' => Course::all(),
+        ]);
     }
     public function contact(){
         return view('frontEnd.contact.contact');
