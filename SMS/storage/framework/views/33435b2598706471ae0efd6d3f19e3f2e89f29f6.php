@@ -30,9 +30,7 @@
                             </td>
                             <td><?php echo e($teacher->address); ?></td>
                             <td>
-
                                 <a href="<?php echo e(route('teacher-edit', ['id' => $teacher->id])); ?>" class="btn btn-primary float-end">Edit</a>
-
                                 <a href="" class="float-end">
                                 <form action="<?php echo e(route('teacher-delete')); ?>" method="post" id="delete">
                                     <?php echo csrf_field(); ?>

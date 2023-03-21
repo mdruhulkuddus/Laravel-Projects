@@ -43,7 +43,9 @@
                         <small class="mb-0">Some placeholder content</small>
                     </div>
                     <a href="{{ route('add-course') }}" class="list-group-item"><i class="bi bi-check2-square"></i>Add Course</a>
+                    @if(Session::get('teacherId'))
                     <a href="{{ route('manage-course', ['teacherID' => Session::get('teacherId')]) }}" class="list-group-item"><i class="bi bi-receipt"></i>Manage Course</a>
+                    @endif
                     <a href="{{ route('manage-applicant') }}" class="list-group-item"><i class="bi bi-receipt"></i>Manage Applicant</a>
                     <a href="{{ route('applicant-overview') }}" class="list-group-item"><i class="bi bi-receipt"></i>Applicant Overview</a>
 

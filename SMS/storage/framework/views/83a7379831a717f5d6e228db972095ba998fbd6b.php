@@ -43,7 +43,9 @@
                         <small class="mb-0">Some placeholder content</small>
                     </div>
                     <a href="<?php echo e(route('add-course')); ?>" class="list-group-item"><i class="bi bi-check2-square"></i>Add Course</a>
+                    <?php if(Session::get('teacherId')): ?>
                     <a href="<?php echo e(route('manage-course', ['teacherID' => Session::get('teacherId')])); ?>" class="list-group-item"><i class="bi bi-receipt"></i>Manage Course</a>
+                    <?php endif; ?>
                     <a href="<?php echo e(route('manage-applicant')); ?>" class="list-group-item"><i class="bi bi-receipt"></i>Manage Applicant</a>
                     <a href="<?php echo e(route('applicant-overview')); ?>" class="list-group-item"><i class="bi bi-receipt"></i>Applicant Overview</a>
 
